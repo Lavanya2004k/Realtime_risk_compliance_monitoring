@@ -5,7 +5,7 @@ Realtime Risk Compliance Monitoring is a system that alerts stakeholders by summ
 
 2) Data Storage: Stores scraped data in an Elasticsearch container running on Docker.
 
-3) AI-Powered Summarization: Utilizes an AI model (Llama) to summarize policy changes.
+3) AI-Powered Summarization: Utilizes an AI model to summarize policy changes.
 
 4) Automated Email Alerts: Sends summarized updates to stakeholders via email.
 
