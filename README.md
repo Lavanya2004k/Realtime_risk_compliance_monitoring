@@ -58,3 +58,10 @@ Kibana is used to visualize trends and insights from the policy data.
 
 ![image](https://github.com/user-attachments/assets/c46d789f-9aff-4a62-909a-fb996b6d34eb)
 
+![image](https://github.com/user-attachments/assets/d236e85f-f8e9-48d2-8894-7c59537e3a94)
+
+![image](https://github.com/user-attachments/assets/e6320d93-e72c-42fa-9edd-73779d8010af) 
+
+![image](https://github.com/user-attachments/assets/f5608679-2920-4ad4-926b-d97bc40373b5)
+
+
