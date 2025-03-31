@@ -11,7 +11,7 @@ Realtime Risk Compliance Monitoring is a system that alerts stakeholders by summ
 
 5) Data Visualization: Displays policy trends and summaries in Kibana.
 
-#Tech Stack
+# Tech Stack
 1) Python (Backend and AI processing)
 
 2) Selenium (Web scraping)
