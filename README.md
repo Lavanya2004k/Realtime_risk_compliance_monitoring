@@ -53,3 +53,8 @@ Kibana is used to visualize trends and insights from the policy data.
 2) Expand support for more countries and policy sources.
 
 3) Implement advanced NLP techniques for improved summarization.
+
+# Screenshots
+
+![image](https://github.com/user-attachments/assets/c46d789f-9aff-4a62-909a-fb996b6d34eb)
+
