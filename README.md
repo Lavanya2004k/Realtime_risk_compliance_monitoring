@@ -1,12 +1,55 @@
-# Realtime_risk_compliance_monitoring
+# Overview
+Realtime Risk Compliance Monitoring is a system that alerts stakeholders by summarizing government policy changes. This helps stakeholders make informed decisions regarding their market products. The system scrapes policy data from multiple countries, processes it using AI, and delivers summarized insights via email notifications.
+# Features
+1) Web Scraping: Extracts policy updates from four countries (USA, India, Bangladesh, Pakistan) using Selenium.
 
-The main aim of the project is to alert the stake holder by sending the summarized data in which it contains the changes of the decisions taken by the government. This can help the stake holders to take decisions for their products which are in the market.
+2) Data Storage: Stores scraped data in an Elasticsearch container running on Docker.
 
-# Steps that were followed to create the project  
+3) AI-Powered Summarization: Utilizes an AI model (Llama) to summarize policy changes.
 
-1) Web scraped the data from four countries: USA,INDIA,BANGLADESH and PAKISTAN
-   I have used selenium to webscrape my data from these four countries. Selenium scrapes the data which is there inside the page of login. So, rather than using beautifulsoup I have used selenium to do this.
-2) The scrapped data gets stored in elastic search where I have created a container in the docker at a port address.
-3) The data gets fetched from elastic search and will be summarized using a AI model(Llama).
-4) The summarized data will be sent to the stake holders email as points.
-5) The plots of the news data are shown in Kibana.
+4) Automated Email Alerts: Sends summarized updates to stakeholders via email.
+
+5) Data Visualization: Displays policy trends and summaries in Kibana.
+
+#Tech Stack
+1) Python (Backend and AI processing)
+
+2) Selenium (Web scraping)
+
+3) Elasticsearch (Data storage and retrieval)
+
+4) Docker (Containerization of Elasticsearch)
+
+5) Llama AI Model (Summarization)
+
+6) Kibana (Data visualization)
+
+7) SMTP (Email notifications)
+
+# Project Flow
+1) Web Scraping
+
+Selenium extracts policy changes from government websites of the USA, India, Bangladesh, and Pakistan. Since the data is behind a login page, Selenium is preferred over BeautifulSoup.
+
+2) Data Storage
+
+The scraped data is stored in an Elasticsearch instance running in a Docker container.
+
+3) Summarization
+
+The stored data is processed using the Llama AI model to generate concise summaries.
+
+4) Email Notifications
+
+Summarized insights are sent to stakeholders via email, enabling timely decision-making.
+
+5) Data Visualization
+
+Kibana is used to visualize trends and insights from the policy data.
+
+# Future Enhancements
+1) Integrate real-time monitoring with streaming data pipelines.
+
+2) Expand support for more countries and policy sources.
+
+3) Implement advanced NLP techniques for improved summarization.
